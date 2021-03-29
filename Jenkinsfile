@@ -5,6 +5,11 @@ pipeline {
             //filename 'my.dockerfile'  // Uncomment and change
     }   }
     stages {
+        stage('Hello GitHub') {
+            steps {
+                echo "Hello GitHub!"
+        }   }
+
         stage('Compile') {
             steps {
                 sh 'python3 -m compileall adder.py'
