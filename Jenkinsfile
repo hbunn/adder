@@ -4,7 +4,7 @@ pipeline {
             label 'docker'
             //filename 'my.dockerfile'  // Uncomment and change
     }   }
-        parameters {
+    parameters {
         string(name: 'REF', defaultValue: '\${ghprbActualCommit}', description: 'Commit to build')
     }
 
