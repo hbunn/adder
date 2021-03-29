@@ -9,7 +9,7 @@ pipeline {
     }
 
     stages {
-        stage('Hello GitHub') {
+        stage('Hello GitHub!!') {
             steps {
                 echo "Hello GitHub!!!"
         }   }
