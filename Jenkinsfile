@@ -5,7 +5,7 @@ pipeline {
             //filename 'my.dockerfile'  // Uncomment and change
     }   }
     stages {
-        stage('Hello GitHub') {
+        stage('Hello GitHub!!') {
             steps {
                 echo "Hello GitHub!"
         }   }
